@@ -37,4 +37,3 @@ class Home(Resource):
 
 api.add_resource(Home, "/<string:search>")
 
-app.run(debug=True)
